@@ -8,37 +8,44 @@
   <meta name="description" content="Work with your data">
 
   <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <!-- Custom styles for this template -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">  <!-- Custom styles for this template -->
   <link href="./css/home.css" rel="stylesheet">
 </head>
 
 <body class="bg-light">
+  
   <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
-    <a class="navbar-brand" href="/">ChartKarma</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse">
-      <ul class="navbar-nav mr-auto">
-      </ul>
-      <ul class="navbar-nav ml-auto">
-        <!-- <li class="nav-item">
-          <a class="nav-link" href="#">Price <span class="sr-only">(current)</span></a>
-        </li> -->
-        <li class="nav-item">
-          <a class="nav-link text-info">Beta</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://admin.chartkarma.com/login">Login <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class=" btn btn-success" href="https://admin.chartkarma.com/signup">Signup <span class="sr-only">(current)</span></a>
-        </li>
-      </ul>
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">ChartKarma</a>
+      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse" id="navbarCollapse" style="">
+        <ul class="navbar-nav me-auto">
+          <li class="navbar-nav me-auto mb-2 mb-md-0">
+            <a class="nav-link d-none" href="/price">Price</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav d-flex justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link d-none" href="/price">Price</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-info">Beta</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://admin.chartkarma.com/login">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class=" btn btn-success" href="https://admin.chartkarma.com/signup">Signup</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
+  
+  
+
 
   <main role="main" class="container min-vh-100">
     <div class="d-flex flex-column text-center" style="padding-top: 15vh!important;">
@@ -49,34 +56,34 @@
     </div>
     <div  class="row features" style="font-size: 1.2rem; margin-left: 15%; width:80%;">
       <div class="col-md-6 mt-4">
-       <span class="pr-2">🔌</span>100+ Connectors
+       <span>🔌</span> 100+ Connectors
       </div>
       <div class="col-md-6 mt-4">
-        <span class="pr-2">🛁</span>Pre-cleaned Tables
+        <span>🛁</span> Pre-cleaned Tables
       </div>
       <div class="col-md-6 mt-4">
-        <span class="pr-2">📊</span>15+ Chart Types
+        <span>📊</span> 15+ Chart Types
       </div>
       <div class="col-md-6 mt-4">
-        <span class="pr-2">🖼️</span>Embeddable Visualizations
+        <span>🖼️</span> Embeddable Charts
       </div>
       <div class="col-md-6 mt-4">
-        <span class="pr-2">🔔</span>Customize Alerts
+        <span>🔔</span> Customize Alerts
       </div>
       <div class="col-md-6 mt-4">
-        <span class="pr-2">⏰</span>Schedule Reports
+        <span>⏰</span> Schedule Reports
       </div>
       <div class="col-md-6 mt-4">
-        <span class="pr-2">🧭</span>Easy Table Exploration 
+        <span>🧭</span> Easy Table Exploration 
       </div>
       <div class="col-md-6 mt-4">
-        <span class="pr-2">🧮</span>Formulas and Pivot Tables
+        <span>🧮</span> Pivot Tables & Formulas
       </div>
       <div class="col-md-6 mt-4">
-        <span class="pr-2">🏖</span>No Code Required 
+        <span>🏖</span> No Code Required 
       </div>
       <div class="col-md-6 mt-4">
-        <span class="pr-2">🚀</span>Blazingly Fast
+        <span>🚀</span> Blazingly Fast
       </div>
 
     </div>
@@ -85,144 +92,201 @@
         <a href="https://admin.chartkarma.com/signup" class="btn btn-success px-5 py-2" style="font-size: 1.28rem;">
           Signup for free 
         </a>
-        <br/>
-        or
-        <br/>
-        <a target="_blank" href="https://airtable.com/shrHEfsTyRVbEWbf6" class="" style="font-size: 1.28rem;">
-          Talk to us
+        <br>
+        <a class="btn btn-outline-primary btn-sm px-3 mt-2" target="_blank" href="https://airtable.com/shrHEfsTyRVbEWbf6" class="" style="font-size: 1.28rem;">
+          <small>Get a demo</small>
         </a>
         <br/>
       </div>
     </div>
   </main>
-
-  <section class="container">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <section style="max-width:768px" class="container">
     <div class="row">
-      <div class="col-12">
-        <h3>Centralize Your Data</h3>
+      <div class="col-12 text-center">
+        <h2>Centralize Your Data</h2>
       </div>
     </div>
-    <div  class="row" style="">
-      <div style="" class="col-2 p-4 p-lg-5 rounded shadow-sm">
+    <div class="row mt-3">
+      <div style="" class="col-2 p-4 p-lg-4 rounded shadow-sm">
         <img class="w-100" src="/img/logos/salesforce.png"></img>
       </div>
-      <div class="col-2 p-4 p-lg-5 rounded shadow-sm">
+      <div class="col-2 p-4 p-lg-4 rounded shadow-sm">
         <img class="w-100" src="/img/logos/jira.svg"></img>
       </div>
-      <div class="col-2 p-4 p-lg-5 rounded shadow-sm">
+      <div class="col-2 p-4 p-lg-4 rounded shadow-sm">
         <img class="w-100" src="/img/logos/mailchimp.svg"></img>
       </div>
-      <div class="col-2 p-4 p-lg-5 rounded shadow-sm">
+      <div class="col-2 p-4 p-lg-4 rounded shadow-sm">
         <img class="w-100" src="/img/logos/shopify.svg"></img>
       </div>
-      <div class="col-2 p-4 p-lg-5 rounded shadow-sm">
+      <div class="col-2 p-4 p-lg-4 rounded shadow-sm">
         <img class="w-100" src="/img/logos/twilio.png"></img>
       </div>
-      <div class="col-2 p-4 p-lg-5 rounded shadow-sm">
+      <div class="col-2 p-4 p-lg-4 rounded shadow-sm">
         <img class="w-100" src="/img/logos/stripe.svg"></img>
       </div>
     </div>
     <div  class="row" style="">
-      <div  class="col-2 p-4 p-lg-5 rounded shadow-sm">
+      <div  class="col-2 p-4 p-lg-4 rounded shadow-sm">
         <img class="w-100" src="/img/logos/snapchat.svg"></img>
       </div>
-      <div class="col-2 p-4 p-lg-5 rounded shadow-sm">
+      <div class="col-2 p-4 p-lg-4 rounded shadow-sm">
         <img class="w-100" src="/img/logos/postgres.svg"></img>
       </div>
-      <div class="col-2 p-4 p-lg-5 rounded shadow-sm">
+      <div class="col-2 p-4 p-lg-4 rounded shadow-sm">
         <img class="w-100" src="/img/logos/google_analytics.svg"></img>
       </div>
-      <div class="col-2 p-4 p-lg-5 rounded shadow-sm">
-        <img class="w-100" src="/img/logos/github.svg"></img>
+      <div class="col-2 p-4 p-lg-4 rounded shadow-sm">
+        <img class="w-100" src="/img/logos/square.svg"></img>
       </div>
-      <div class="col-2 p-4 p-lg-5 rounded shadow-sm">
+      <div class="col-2 p-4 p-lg-4 rounded shadow-sm">
         <img class="w-100" src="/img/logos/google_ads.svg"></img>
       </div>
-      <div class="col-2 p-4 p-lg-5 rounded shadow-sm">
+      <div class="col-2 p-4 p-lg-4 rounded shadow-sm">
         <img class="w-100" src="/img/logos/hubspot.svg"></img>
       </div>
     </div>
     <div  class="row" style="">
-      <div style="" class="col-2 p-4 p-lg-5 rounded shadow-sm">
+      <div style="" class="col-2 p-4 p-lg-4 rounded shadow-sm">
         <img class="w-100" src="/img/logos/instagram.svg"></img>
       </div>
-      <div class="col-2 p-4 p-lg-5 rounded shadow-sm">
+      <div class="col-2 p-4 p-lg-4 rounded shadow-sm">
         <img class="w-100" src="/img/logos/facebook.svg"></img>
       </div>
-      <div class="col-2 p-4 p-lg-5 rounded shadow-sm">
+      <div class="col-2 p-4 p-lg-4 rounded shadow-sm">
         <img class="w-100" src="/img/logos/trello.svg"></img>
       </div>
-      <div class="col-2 p-4 p-lg-5 rounded shadow-sm">
+      <div class="col-2 p-4 p-lg-4 rounded shadow-sm">
         <img class="w-100" src="/img/logos/asana.svg"></img>
       </div>
-      <div class="col-2 p-4 p-lg-5 rounded shadow-sm">
+      <div class="col-2 p-4 p-lg-4 rounded shadow-sm">
         <img class="w-100" src="/img/logos/airtable.svg"></img>
       </div>
-      <div class="col-2 p-4 p-lg-5 rounded shadow-sm">
+      <div class="col-2 p-4 p-lg-4 rounded shadow-sm">
         <img class="w-100" src="/img/logos/excel.svg"></img>
       </div>
+      <a class="text-muted text-decoration-none mt-1" target="_blank" href="https://notion.so/abc123">See full list -></a>
     </div>
     <!-- <div class="row d-flex justify-content-around mt-2" >
       <p class="text-muted">100 More</p>
     </div> -->
   </section>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
   <section class="container">
     <div class="row">
-      <div class="col-12 my-3">
-        <h3>Dashboard Delight</h3>
+      <div class="offset-lg-1 col-lg-10">
+        <h2 class="mb-2">Create Dashboard Delight</h2>
+        <img class="w-100" src="/img/dashing.png"></img>
       </div>
-    </div>
-    <div class="row">
-      <img class="w-100" src="/img/dashing.png"></img>
     </div>
   </section>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
   <section class="container">
-    <div class="row">
+    <div class="row  text-center">
       <div class="col-12 my-3">
-        <h4>Management</h4>
-        <p>Reports and dashboards, that are always up to date</p>
-      </div>
-      <div class="col-12 my-3">
-        <h4>Operations</h4>
-        <p>A single accurate repository of the data your business runs on.</p>
-      </div>
-      <div class="col-12 my-3">
-        <h4>Marketing</h4>
-        <p>Accurate, up-to-date customer email, advertising and event information.</p>
-      </div>
-      <div class="col-12 my-3">
-        <h4>Sales</h4>
-        <p>Fully understand your customers, leads and pipeline.</p>
+        <h2>🔋 Batteries Included</h2>
       </div>
     </div>
-
+    <div class="row text-center" style="font-size: 1.3rem;">
+      <div class="col-sm-6">
+        <p>🤖 Powerful Calc Engine</p>
+      </div>
+      <div class="col-sm-6">
+        <p>🗄️ Petabytes of Storage</p>
+      </div>
+      <div class="col-sm-6">
+        <p>☁️ Regular Data Syncs</p>
+      </div>
+      <div class="col-sm-6">
+        <p>👨‍💻 Zero Maintenance</p>
+      </div>
+    </div>
+  </section>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <section class="container">
+    <div class="row">
+      <div class="offset-lg-1 col-lg-10">
+        <h2 class="mb-3">Familiar Filters, Functions and Sorts</h2>
+        <img class="w-100" src="/img/tably.png"></img>
+      </div>
+    </div>
+  </section>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <section class="container">
+    <div class="row">
+      <h2>Something For Everyone</h2>
+      <div class="col-6 my-3">
+        <h4>Leadership</h4>
+        <p>Reports and dashboards, that are always up-to-date.</p>
+      </div>
+      <div class="col-6 my-3">
+        <h4>Operations</h4>
+        <p>A single source of truth for the data your business runs on.</p>
+      </div>
+      <div class="col-6 my-3">
+        <h4>Marketing</h4>
+        <p>Accurate, up-to-date outreach, advertising and event data.</p>
+      </div>
+      <div class="col-6 my-3">
+        <h4>Sales</h4>
+        <p>Fresh info on your customers, leads and pipeline.</p>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
     <div class="col-12 text-center">
       <a href="https://admin.chartkarma.com/signup" class="btn btn-primary px-5 py-2" style="font-size: 1.28rem;">
         Get Stated Now
       </a>
       <br/>
-      <small>*Zero to data in minutes</small>
+      <small>*Zero to dashboard in minutes</small>
     </div>
   </section>
-
-  <div class="container">
+  <br>
+  <br>
+  <br>
+  <div class="container mt-5">
     <footer class="pt-4 my-md-5 pt-md-5 border-top">
       <div class="row">
         <div class="col-12 col-md">
           <small class="d-block mb-3 text-muted">© 2021 ChartKarma</small>
         </div>
-        <!-- <div class="col-6 col-md">
-          <h5>Features</h5>
+        <div class="col-6 col-md">
           <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Cool stuff</a></li>
-            <li><a class="text-muted" href="#">Random feature</a></li>
-            <li><a class="text-muted" href="#">Team feature</a></li>
-            <li><a class="text-muted" href="#">Stuff for developers</a></li>
-            <li><a class="text-muted" href="#">Another one</a></li>
-            <li><a class="text-muted" href="#">Last time</a></li>
+            <li><a class="text-muted" href="https://admin.chartkarma.com/login">Login</a></li>
+            <li><a class="text-muted" href="https://admin.chartkarma.com/signup">Signup</a></li>
           </ul>
         </div>
-        <div class="col-6 col-md">
+        <!-- <div class="col-6 col-md">
           <h5>Resources</h5>
           <ul class="list-unstyled text-small">
             <li><a class="text-muted" href="#">Resource</a></li>
@@ -248,12 +312,19 @@
     .features span {
       font-size: 1.75rem;
     }
+
+    @media only screen and (min-width: 1200px) {
+      .features{
+        margin-left: 20%!important;
+      }
+    }
+
   </style>
   <!-- /.container -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
   <script>
     $(window).scroll(function() {
       if (this.scrollY > 150){
