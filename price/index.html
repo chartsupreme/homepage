@@ -22,6 +22,12 @@
   
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link text-info">Beta</a>
+          </li>
+          <li class="navbar-nav me-auto mb-2 mb-md-0">
+            <a class="nav-link" href="/price">Price</a>
+          </li>
         </ul>
         <ul class="navbar-nav ml-auto">
           <!-- <li class="nav-item">
@@ -34,7 +40,7 @@
             <a class="nav-link" href="https://admin.chartkarma.com/login">Login <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class=" btn btn-success" href="https://admin.chartkarma.com/signup">Signup <span class="sr-only">(current)</span></a>
+            <a class=" btn btn-success" href="https://admin.chartkarma.com/signup">Sign up <span class="sr-only">(current)</span></a>
           </li>
         </ul>
       </div>
@@ -42,8 +48,9 @@
   
 
       <div style="max-width:700px; margin-top:100px;" class="pricing-header p-3 pb-md-4 mx-auto text-center">
-        <h1 class="display-4 fw-normal">Pricing</h1>
-        <p class="fs-5 text-muted">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
+        <h1 class="display-3 fw-normal">Upfront Pricing</h1>
+        <p class="fs-5 text-muted">Analytics for every team size and budget.</p>
+        <b>All plans include unlimited reports, viewers and public charts/dashboards.</b>
       </div>
 
 
@@ -56,13 +63,15 @@
             <div class="card-body">
               <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
               <ul class="list-unstyled mt-3 mb-4">
-                <li>2 users</li>
-                <li>2 Connectors</li>
-                <li>Support forum</li>
-                <li>Data Updates Every 4 Hour</li>
-                <li>5000 Monthly Updated Rows</li>
+                <li>5 Users</li>
+                <li>*$15 Per Additional User</li>
+                <li>3 Connectors</li>
+                <li>5 Active Automated Reports</li>
+                <li>Public Forum Support</li>
+                <li>5,000 Updated Rows</li>
+                <li>500 Megabytes Storage</li>
               </ul>
-              <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
+              <a href="https://admin.chartkarma.com/signup" type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</a>
             </div>
           </div>
           <div class="card mb-4 box-shadow">
@@ -72,13 +81,15 @@
             <div class="card-body">
               <h1 class="card-title pricing-card-title">$99 <small class="text-muted">/ mo</small></h1>
               <ul class="list-unstyled mt-3 mb-4">
-                <li>7 users</li>
-                <li>7 Connectors</li>
-                <li>Email support</li>
-                <li>Hourly Data Updates</li>
-                <li>100,000 Monthly Updated Rows</li>
+                <li>10 Users</li>
+                <li>*$15 Per Additional User</li>
+                <li>10 Connectors</li>
+                <li>30 Automated Reports</li>
+                <li>3-Day Email Support</li>
+                <li>500,000 Updated Rows</li>
+                <li>30 Gigabyte Storage</li>
               </ul>
-              <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
+              <a href="https://admin.chartkarma.com/signup" type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</a>
             </div>
           </div>
           <div class="card mb-4 box-shadow">
@@ -86,15 +97,35 @@
               <h4 class="my-0 font-weight-normal">Medium</h4>
             </div>
             <div class="card-body">
-              <h1 class="card-title pricing-card-title">$199 <small class="text-muted">/ mo</small></h1>
+              <h1 class="card-title pricing-card-title">$249 <small class="text-muted">/ mo</small></h1>
               <ul class="list-unstyled mt-3 mb-4">
-                <li>30 users included</li>
-                <li>20 Connectors</li>
-                <li>Email support</li>
-                <li>Hourly Data Updates</li>
-                <li>1,000,000 Monthly Updated Rows</li>
+                <li>30 Users</li>
+                <li>*$15 Per Additional User</li>
+                <li>25 Connectors</li>
+                <li>50 Automated Reports</li>
+                <li>3-Day Email Support</li>
+                <li>5,000,000 Updated Rows</li>
+                <li>100 Gigabyte Storage</li>
               </ul>
-              <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
+              <a href="https://admin.chartkarma.com/signup" type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</a>
+            </div>
+          </div>
+          <div class="card mb-4 box-shadow">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">Enterprise</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">Let's Talk</h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>SSO</li>
+                <li>Performance Tuning</li>
+                <li>Custom SLA</li>
+                <li>Dedicated Support</li>
+                <br>
+                <br>
+                <br>
+              </ul>
+              <a target="_blank" href="https://airtable.com/shr0DXiHr1zH87NAF" type="button" class="btn btn-lg btn-block btn-primary">Contact Us</a>
             </div>
           </div>
         </div>
@@ -152,8 +183,8 @@
     </script>
     <script>
       !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"];analytics.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);analytics.push(t);return analytics}};for(var e=0;e<analytics.methods.length;e++){var key=analytics.methods[e];analytics[key]=analytics.factory(key)}analytics.load=function(key,e){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=e};analytics._writeKey="BmxaKFSTnh51wGAADYTf9HJiwdIQaxio";analytics.SNIPPET_VERSION="4.13.2";
-      // analytics.load("BmxaKFSTnh51wGAADYTf9HJiwdIQaxio");
-      // analytics.page();
+      analytics.load("BmxaKFSTnh51wGAADYTf9HJiwdIQaxio");
+      analytics.page();
       }}();
     </script>  
   </body>
