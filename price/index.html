@@ -8,164 +8,179 @@
     <meta name="description" content="Work with your data">
   
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">  <!-- Custom styles for this template -->
     <!-- Custom styles for this template -->
     <link href="./css/home.css" rel="stylesheet">
   </head>
   
   <body class="bg-light">
     <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
-      <a class="navbar-brand" href="/">ChartKarma</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-  
-      <div class="collapse navbar-collapse">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link text-info">Beta</a>
-          </li>
-          <li class="navbar-nav me-auto mb-2 mb-md-0">
-            <a class="nav-link" href="/price">Price</a>
-          </li>
-        </ul>
-        <ul class="navbar-nav ml-auto">
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="#">Price <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Connectors <span class="sr-only">(current)</span></a>
-          </li> -->
-          <li class="nav-item">
-            <a class="nav-link" href="https://admin.chartkarma.com/login">Login <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class=" btn btn-success" href="https://admin.chartkarma.com/signup">Sign up <span class="sr-only">(current)</span></a>
-          </li>
-        </ul>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">ChartKarma</a>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarCollapse" style="">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link text-info">Beta</a>
+            </li>
+            <li class="navbar-nav me-auto mb-2 mb-md-0">
+              <a class="nav-link" href="/price">Price</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav d-flex justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link d-none" href="/price">Price</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://admin.chartkarma.com/login">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class=" btn btn-success" href="https://admin.chartkarma.com/signup">Sign up</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
-  
 
-      <div style="max-width:700px; margin-top:100px;" class="pricing-header p-3 pb-md-4 mx-auto text-center">
-        <h1 class="display-3 fw-normal">Upfront Pricing</h1>
-        <p class="fs-5 text-muted">Analytics for every team size and budget.</p>
-        <b>All plans include unlimited reports, viewers and public charts/dashboards.</b>
+
+
+      <div class="container py-3" style="margin-top:100px;">
+        <header>
+          <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4">
+          <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+            <h1 class="display-4 fw-normal">Upfront Pricing</h1>
+            <p class="fs-5 text-muted">Find the perfect plan for your team and budget.</p>
+            <b>All plans include unlimited reports, viewers and public charts/dashboards.</b>
+          </div>
+        </header>
+      
+        <main>
+          <div class="row row-cols-1 row-cols-lg-4 mb-3 text-center">
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3">
+                  <h4 class="my-0 fw-normal">Free</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>5 Users</li>
+                    <li>*$15 Per Additional User</li>
+                    <li>3 Connectors</li>
+                    <li>5 Automated Reports</li>
+                    <li>Public Forum Support</li>
+                    <li>5k Updated Rows</li>
+                    <li>500 Megabytes Storage</li>
+                  </ul>
+                  <a href="https://admin.chartkarma.com/signup" type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3">
+                  <h4 class="my-0 fw-normal">Small</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">$99<small class="text-muted fw-light">/mo</small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>10 Users</li>
+                    <li>*$15 Per Additional User</li>
+                    <li>6 Connectors</li>
+                    <li>30 Automated Reports</li>
+                    <li>3-Day Email Support</li>
+                    <li>500k Updated Rows</li>
+                    <li>30 Gigabyte Storage</li>
+                  </ul>
+                  <a href="https://admin.chartkarma.com/signup" type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3">
+                  <h4 class="my-0 fw-normal">Medium</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">$249<small class="text-muted fw-light">/mo</small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>30 Users</li>
+                    <li>*$15 Per Additional User</li>
+                    <li>15 Connectors</li>
+                    <li>50 Automated Reports</li>
+                    <li>3-Day Email Support</li>
+                    <li>5m Updated Rows</li>
+                    <li>100 Gigabyte Storage</li>
+                  </ul>
+                  <a href="https://admin.chartkarma.com/signup" type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                <div class="card-header py-3 text-white bg-primary border-primary">
+                  <h4 class="my-0 fw-normal">Enterprise</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">Talk to Us</h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>SSO</li>
+                    <li>Performance Tuning</li>
+                    <li>Custom SLA</li>
+                    <li>Dedicated Support</li>
+                    <br>
+                    <br>
+                    <br>
+                  </ul>
+                  <a target="_blank" href="https://airtable.com/shr0DXiHr1zH87NAF" type="button" class="w-100 btn btn-lg btn-primary">Contact us</a>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <footer class="pt-4 my-md-5 pt-md-5 border-top">
+            <div class="row">
+              <div class="col-12 col-md">
+                <small class="d-block mb-3 text-muted">© 2021</small>
+              </div>
+              <!-- <div class="col-6 col-md">
+                <h5>Features</h5>
+                <ul class="list-unstyled text-small">
+                  <li><a class="text-muted" href="#">Cool stuff</a></li>
+                  <li><a class="text-muted" href="#">Random feature</a></li>
+                  <li><a class="text-muted" href="#">Team feature</a></li>
+                  <li><a class="text-muted" href="#">Stuff for developers</a></li>
+                  <li><a class="text-muted" href="#">Another one</a></li>
+                  <li><a class="text-muted" href="#">Last time</a></li>
+                </ul>
+              </div>
+              <div class="col-6 col-md">
+                <h5>Resources</h5>
+                <ul class="list-unstyled text-small">
+                  <li><a class="text-muted" href="#">Resource</a></li>
+                  <li><a class="text-muted" href="#">Resource name</a></li>
+                  <li><a class="text-muted" href="#">Another resource</a></li>
+                  <li><a class="text-muted" href="#">Final resource</a></li>
+                </ul>
+              </div>
+              <div class="col-6 col-md">
+                <h5>About</h5>
+                <ul class="list-unstyled text-small">
+                  <li><a class="text-muted" href="#">Team</a></li>
+                  <li><a class="text-muted" href="#">Locations</a></li>
+                  <li><a class="text-muted" href="#">Privacy</a></li>
+                  <li><a class="text-muted" href="#">Terms</a></li>
+                </ul>
+              </div> -->
+            </div>
+          </footer>
       </div>
 
-
-      <div class="container">
-        <div class="card-deck mb-3 text-center">
-          <div class="card mb-4 box-shadow">
-            <div class="card-header">
-              <h4 class="my-0 font-weight-normal">Free</h4>
-            </div>
-            <div class="card-body">
-              <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
-              <ul class="list-unstyled mt-3 mb-4">
-                <li>5 Users</li>
-                <li>*$15 Per Additional User</li>
-                <li>3 Connectors</li>
-                <li>5 Active Automated Reports</li>
-                <li>Public Forum Support</li>
-                <li>5,000 Updated Rows</li>
-                <li>500 Megabytes Storage</li>
-              </ul>
-              <a href="https://admin.chartkarma.com/signup" type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</a>
-            </div>
-          </div>
-          <div class="card mb-4 box-shadow">
-            <div class="card-header">
-              <h4 class="my-0 font-weight-normal">Small</h4>
-            </div>
-            <div class="card-body">
-              <h1 class="card-title pricing-card-title">$99 <small class="text-muted">/ mo</small></h1>
-              <ul class="list-unstyled mt-3 mb-4">
-                <li>10 Users</li>
-                <li>*$15 Per Additional User</li>
-                <li>10 Connectors</li>
-                <li>30 Automated Reports</li>
-                <li>3-Day Email Support</li>
-                <li>500,000 Updated Rows</li>
-                <li>30 Gigabyte Storage</li>
-              </ul>
-              <a href="https://admin.chartkarma.com/signup" type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</a>
-            </div>
-          </div>
-          <div class="card mb-4 box-shadow">
-            <div class="card-header">
-              <h4 class="my-0 font-weight-normal">Medium</h4>
-            </div>
-            <div class="card-body">
-              <h1 class="card-title pricing-card-title">$249 <small class="text-muted">/ mo</small></h1>
-              <ul class="list-unstyled mt-3 mb-4">
-                <li>30 Users</li>
-                <li>*$15 Per Additional User</li>
-                <li>25 Connectors</li>
-                <li>50 Automated Reports</li>
-                <li>3-Day Email Support</li>
-                <li>5,000,000 Updated Rows</li>
-                <li>100 Gigabyte Storage</li>
-              </ul>
-              <a href="https://admin.chartkarma.com/signup" type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</a>
-            </div>
-          </div>
-          <div class="card mb-4 box-shadow">
-            <div class="card-header">
-              <h4 class="my-0 font-weight-normal">Enterprise</h4>
-            </div>
-            <div class="card-body">
-              <h1 class="card-title pricing-card-title">Let's Talk</h1>
-              <ul class="list-unstyled mt-3 mb-4">
-                <li>SSO</li>
-                <li>Performance Tuning</li>
-                <li>Custom SLA</li>
-                <li>Dedicated Support</li>
-                <br>
-                <br>
-                <br>
-              </ul>
-              <a target="_blank" href="https://airtable.com/shr0DXiHr1zH87NAF" type="button" class="btn btn-lg btn-block btn-primary">Contact Us</a>
-            </div>
-          </div>
-        </div>
+      
   
-        <footer class="pt-4 my-md-5 pt-md-5 border-top">
-          <div class="row">
-            <div class="col-12 col-md">
-              <small class="d-block mb-3 text-muted">© 2021</small>
-            </div>
-            <!-- <div class="col-6 col-md">
-              <h5>Features</h5>
-              <ul class="list-unstyled text-small">
-                <li><a class="text-muted" href="#">Cool stuff</a></li>
-                <li><a class="text-muted" href="#">Random feature</a></li>
-                <li><a class="text-muted" href="#">Team feature</a></li>
-                <li><a class="text-muted" href="#">Stuff for developers</a></li>
-                <li><a class="text-muted" href="#">Another one</a></li>
-                <li><a class="text-muted" href="#">Last time</a></li>
-              </ul>
-            </div>
-            <div class="col-6 col-md">
-              <h5>Resources</h5>
-              <ul class="list-unstyled text-small">
-                <li><a class="text-muted" href="#">Resource</a></li>
-                <li><a class="text-muted" href="#">Resource name</a></li>
-                <li><a class="text-muted" href="#">Another resource</a></li>
-                <li><a class="text-muted" href="#">Final resource</a></li>
-              </ul>
-            </div>
-            <div class="col-6 col-md">
-              <h5>About</h5>
-              <ul class="list-unstyled text-small">
-                <li><a class="text-muted" href="#">Team</a></li>
-                <li><a class="text-muted" href="#">Locations</a></li>
-                <li><a class="text-muted" href="#">Privacy</a></li>
-                <li><a class="text-muted" href="#">Terms</a></li>
-              </ul>
-            </div> -->
-          </div>
-        </footer>
+
       </div>
 
     <!-- /.container -->
