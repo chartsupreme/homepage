@@ -1,0 +1,15 @@
+<svg id="graphics" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0089d6;
+      }
+    </style>
+  </defs>
+  <title>connectors</title>
+  <g id="layer1">
+    <g id="layer1-1">
+      <path id="path21" class="cls-1" d="M49,62.08l9.44-1.67.08,0-4.85-5.77c-2.67-3.18-4.85-5.79-4.85-5.8s5-13.83,5-13.87,3.42,5.87,8.26,14.26l8.32,14.41.06.11H39.68Zm-18.5-1.76s2.28-4,5.08-8.82l5.08-8.81,5.92-5,5.94-5a.89.89,0,0,1-.1.24L46,46.78,39.7,60.32H30.52Z"/>
+    </g>
+  </g>
+</svg>

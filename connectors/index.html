@@ -1,0 +1,522 @@
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="">
+    <link rel="icon" href="/img/favicon.ico">
+  
+    <title>ChartKarma</title>
+    <meta name="description" content="Work with your data">
+  
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">  <!-- Custom styles for this template -->
+    <link href="./css/home.css" rel="stylesheet">
+  </head>
+  
+  <body class="bg-light">
+    
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">ChartKarma</a>
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse" id="navbarCollapse" style="">
+            <ul class="navbar-nav me-auto">
+              <li class="navbar-nav me-auto mb-2 mb-md-0">
+                <a class="nav-link d-none" href="/price">Price</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-info">Beta</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav d-flex justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link d-none" href="/price">Price</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://admin.chartkarma.com/login">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class=" btn btn-success" href="https://admin.chartkarma.com/signup">Signup</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container mt-5">
+    <h1 class="mt-5">Conenctors</h1>
+      <ul class="list-group" href="" style="width:75 height">
+         <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/csv.svg" width="50">
+            <div class="mx-2">CSV Upload</div>
+            </li><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/adobe_analytics">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/adobe_analytics.svg" width="50">
+            <div class="mx-2">Adobe Analytics</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/adobe_analytics_data_feed">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/adobe_analytics.svg" width="50">
+            <div class="mx-2">Adobe Analytics Data Feed</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/adroll">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/adroll.svg" width="50">
+            <div class="mx-2">AdRoll</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/s3">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/s3.svg" width="50">
+            <div class="mx-2">Amazon S3 (CSV, JSON, TSV, avro, parquet)</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/amplitude">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/amplitude.svg" width="50">
+            <div class="mx-2">Amplitude</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/anaplan">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/anaplan.svg" width="50">
+            <div class="mx-2">Anaplan</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/apache_kafka">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/apache_kafka.svg" width="50">
+            <div class="mx-2">Apache Kafka</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/itunes_connect">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/apple_app_store.svg" width="50">
+            <div class="mx-2">Apple App Store</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/apple_search_ads">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/apple_search_ads.svg" width="50">
+            <div class="mx-2">Apple Search Ads</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/appsflyer">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/appsflyer.svg" width="50">
+            <div class="mx-2">AppsFlyer</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/asana">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/asana.svg" width="50">
+            <div class="mx-2">Asana</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/aws_cloudtrail">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/aws_cloudtrail.svg" width="50">
+            <div class="mx-2">AWS CloudTrail</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/aws_inventory">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/aws.png" width="50">
+            <div class="mx-2">AWS Inventory</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/azure_blob_storage">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/csv.svg" width="50">
+            <div class="mx-2">Azure Blob Storage (CSV, JSON, TSV, avro, parquet)</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/braintree">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/braintree.svg" width="50">
+            <div class="mx-2">Braintree</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/branch">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/branch.png" width="50">
+            <div class="mx-2">Branch</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/braze">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/braze.png" width="50">
+            <div class="mx-2">Braze</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/double_click_campaign_manager">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/double_click_campaign_manager.svg" width="50">
+            <div class="mx-2">DoubleClick Campaign Manager</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/coupa">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/coupa.svg" width="50">
+            <div class="mx-2">Coupa</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/criteo">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/criteo.svg" width="50">
+            <div class="mx-2">Criteo</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/dropbox">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/dropbox.svg" width="50">
+            <div class="mx-2">Dropbox (CSV, JSON, TSV, avro, parquet)</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/dynamodb">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/dynamo.png" width="50">
+            <div class="mx-2">DynamoDB</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/eloqua">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/eloqua.svg" width="50">
+            <div class="mx-2">Eloqua</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/facebook_ad_account">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/facebook.svg" width="50">
+            <div class="mx-2">Facebook Ad Account</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/facebook">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/facebook.svg" width="50">
+            <div class="mx-2">Facebook Ad Insights</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/facebook_ads">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/facebook.svg" width="50">
+            <div class="mx-2">Facebook Ads</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/facebook_pages">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/facebook.svg" width="50">
+            <div class="mx-2">Facebook Pages</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/financial_force">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/financialforce.png" width="50">
+            <div class="mx-2">FinancialForce</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/freshdesk">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/freshdesk.svg" width="50">
+            <div class="mx-2">Freshdesk</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/front">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/front.svg" width="50">
+            <div class="mx-2">Front</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/ftp">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/csv.svg" width="50">
+            <div class="mx-2">FTP/FTPS</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/github">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/github.svg" width="50">
+            <div class="mx-2">GitHub</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/double_click_publishers">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/google_ads.svg" width="50">
+            <div class="mx-2">Google Ad Manager (DoubleClick for Publishers)</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/adwords">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/google_ads.svg" width="50">
+            <div class="mx-2">Google Adwords</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/google_ads_account">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/google_ads.svg" width="50">
+            <div class="mx-2">Google Ads Account</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/google_analytics">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/google_analytics.svg" width="50">
+            <div class="mx-2">Google Analytics</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/google_analytics_360">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/google_analytics.svg" width="50">
+            <div class="mx-2">Google Analytics 360</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/google_analytics_mcf">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/google_analytics.svg" width="50">
+            <div class="mx-2">Google Analytics Multi-Channel Funnels</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/gcs">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/google_cloud.svg" width="50">
+            <div class="mx-2">Google Cloud Storage (CSV, JSON, TSV, avro, parquet)</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/google_display_and_video_360">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/google_analytics.png" width="50">
+            <div class="mx-2">Google Display &amp; Video 360</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/google_play">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/google_play.svg" width="50">
+            <div class="mx-2">Google Play</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/google_search_console">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/google.png" width="50">
+            <div class="mx-2">Google Search Console</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/google_sheets">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/google_sheets.svg" width="50">
+            <div class="mx-2">Google Sheets</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/greenhouse">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/greenhouse.svg" width="50">
+            <div class="mx-2">Greenhouse</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/heap">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/heap.svg" width="50">
+            <div class="mx-2">Heap</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/height">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/height.png" width="50">
+            <div class="mx-2">Height</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/helpscout">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/help_scout.svg" width="50">
+            <div class="mx-2">Help Scout</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/heroku_kafka">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/heroku.svg" width="50">
+            <div class="mx-2">Heroku Kafka</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/hubspot">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/hubspot.svg" width="50">
+            <div class="mx-2">HubSpot</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/facebook_ads">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/instagram.png" width="50">
+            <div class="mx-2">Instagram Ads</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/instagram_business">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/instagram.png" width="50">
+            <div class="mx-2">Instagram Business</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/intercom">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/intercom.svg" width="50">
+            <div class="mx-2">Intercom</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/iterable">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/iterable.svg" width="50">
+            <div class="mx-2">Iterable</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/jira">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/jira.svg" width="50">
+            <div class="mx-2">Jira</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/kinesis">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/kinesis.svg" width="50">
+            <div class="mx-2">Kinesis</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/klaviyo">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/klaviyo.svg" width="50">
+            <div class="mx-2">Klaviyo</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/kustomer">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/kustomer.svg" width="50">
+            <div class="mx-2">Kustomer</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/lever">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/lever.svg" width="50">
+            <div class="mx-2">Lever</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/light_speed_retail">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/lightspeed.svg" width="50">
+            <div class="mx-2">Lightspeed Retail</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/linkedin_ads">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/linkedin.svg" width="50">
+            <div class="mx-2">LinkedIn Ad Analytics</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/linkedin_company_pages">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/linkedin.svg" width="50">
+            <div class="mx-2">LinkedIn Company Pages</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/magento_mysql">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/magento.png" width="50">
+            <div class="mx-2">Magento via Mysql</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/magento_mysql_rds">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/magento.png" width="50">
+            <div class="mx-2">Magento via Mysql on Amazon RDS</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/mailchimp">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/mailchimp.svg" width="50">
+            <div class="mx-2">Mailchimp</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/mandrill">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/mandrill.png" width="50">
+            <div class="mx-2">Mandrill</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/mariadb">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/mariadb.svg" width="50">
+            <div class="mx-2">MariaDB</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/maria_rds">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/mariadb.svg" width="50">
+            <div class="mx-2">MariaDB Amazone RDS</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/maria_azure">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/mariadb.svg" width="50">
+            <div class="mx-2">MariaDB Microsoft Azure</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/marin">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/marin.svg" width="50">
+            <div class="mx-2">Marin Software</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/marketo">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/marketo.svg" width="50">
+            <div class="mx-2">Marketo</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/mavenlink">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/mavenlink.svg" width="50">
+            <div class="mx-2">Mavenlink</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/bingads">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/microsoft_advertising.svg" width="50">
+            <div class="mx-2">Microsoft Advertising (Bing)</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/dynamics_365">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/dynamics.png" width="50">
+            <div class="mx-2">Microsoft Dynamics 365</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/mixpanel">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/mixpanel.svg" width="50">
+            <div class="mx-2">Mixpanel</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/mongo">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/mongodb.svg" width="50">
+            <div class="mx-2">MongoDB</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/mongo_sharded">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/mongodb.svg" width="50">
+            <div class="mx-2">MongoDB Sharded</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/mysql">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/mysql.svg" width="50">
+            <div class="mx-2">MySQL</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/aurora">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/mysql.svg" width="50">
+            <div class="mx-2">MySQL Amazon Aurora</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/mysql_azure">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/mysql.svg" width="50">
+            <div class="mx-2">MySQL Microsoft Azure</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/mysql_azure">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/mysql.svg" width="50">
+            <div class="mx-2">MySQL Microsoft Azure</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/google_cloud_mysql">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/mysql.svg" width="50">
+            <div class="mx-2">MySQL Google Cloud</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/mysql_rds">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/mysql.svg" width="50">
+            <div class="mx-2">MySQL Amazon RDS</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/netsuite_suiteanalytics">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/netsuite.png" width="50">
+            <div class="mx-2">NetSuite SuiteAnalytics</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/optimizely">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/optimizely.svg" width="50">
+            <div class="mx-2">Optimizely</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/oracle">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/oracle.png" width="50">
+            <div class="mx-2">Oracle</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/oracle_cloud_apps_sales">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/oracle.png" width="50">
+            <div class="mx-2">Oracle CX Sales</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/oracle_cloud_apps_financials">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/oracle.png" width="50">
+            <div class="mx-2">Oracle ERP Financials</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/outbrain">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/outbrain.svg" width="50">
+            <div class="mx-2">Outbrain</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/pardot">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/salesforce.svg" width="50">
+            <div class="mx-2">Pardot</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/pendo">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/pendo.svg" width="50">
+            <div class="mx-2">Pendo</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/pinterest_ads">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/pinterest.svg" width="50">
+            <div class="mx-2">Pinterest Ads</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/pipedrive">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/pipedrive.svg" width="50">
+            <div class="mx-2">Pipedrive</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/postgres">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/postgres.svg" width="50">
+            <div class="mx-2">Postgres SQL</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/aurora_postgres">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/postgres.svg" width="50">
+            <div class="mx-2">Postgres SQL Amazon Aurora </div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/postgres_rds">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/postgres.svg" width="50">
+            <div class="mx-2">Postgres SQL Amazon RDS </div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/google_cloud_postgresql">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/postgres.svg" width="50">
+            <div class="mx-2">Postgres SQL Google Cloud </div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/heroku_postgres">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/postgres.svg" width="50">
+            <div class="mx-2">Postgres SQL Heroku</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/azure_postgres">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/postgres.svg" width="50">
+            <div class="mx-2">Postgres SQL Microsoft Azure </div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/qualtrics">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/qualtrics.svg" width="50">
+            <div class="mx-2">Qualtrics</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/quickbooks">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/quickbooks.svg" width="50">
+            <div class="mx-2">QuickBooks</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/recharge">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/recharge.svg" width="50">
+            <div class="mx-2">Recharge</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/recurly">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/recurly.svg" width="50">
+            <div class="mx-2">Recurly</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/sailthru">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/sailthru.svg" width="50">
+            <div class="mx-2">Sailthru</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/salesforce">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/salesforce.svg" width="50">
+            <div class="mx-2">Salesforce</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/salesforce_marketing_cloud">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/salesforce.svg" width="50">
+            <div class="mx-2">Salesforce Marketing Cloud</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/sap_hana">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/sap.svg" width="50">
+            <div class="mx-2">SAP HANA</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/sap_s4hana">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/sap.svg" width="50">
+            <div class="mx-2">SAP S/4</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/segment">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/segment.svg" width="50">
+            <div class="mx-2">Segment</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/sendgrid">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/sendgrid.svg" width="50">
+            <div class="mx-2">SendGrid</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/servicenow">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/servicenow.png" width="50">
+            <div class="mx-2">ServiceNow</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/sftp">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/csv.svg" width="50">
+            <div class="mx-2">FTP (File Transfer Protocol)</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/shopify">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/shopify.svg" width="50">
+            <div class="mx-2">Shopify</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/snapchat_ads">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/snapchat.svg" width="50">
+            <div class="mx-2">Snapchat Ads</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/snowplow">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/snowplow.svg" width="50">
+            <div class="mx-2">Snowplow</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/sql_server">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/sql_server.svg" width="50">
+            <div class="mx-2">SQL Server</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/azure_sql_db">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/sql_server.svg" width="50">
+            <div class="mx-2">SQL Server Microsoft Azure</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/sql_server_rds">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/sql_server.svg" width="50">
+            <div class="mx-2">SQL Server Amazon RDS</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/square">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/square.svg" width="50">
+            <div class="mx-2">Square</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/stripe">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/stripe.svg" width="50">
+            <div class="mx-2">Stripe</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/survey_monkey">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/surveymonkey.svg" width="50">
+            <div class="mx-2">SurveyMonkey</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/taboola">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/taboola.svg" width="50">
+            <div class="mx-2">Taboola</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/tiktok_ads">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/tiktok.png" width="50">
+            <div class="mx-2">TikTok Ads</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/twilio">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/twilio.png" width="50">
+            <div class="mx-2">Twilio</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/twitter">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/twitter.svg" width="50">
+            <div class="mx-2">Twitter (Tweets)</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/twitter_ads">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/twitter.svg" width="50">
+            <div class="mx-2">Twitter Ads</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/typeform">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/typeform.svg" width="50">
+            <div class="mx-2">Typeform</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/uservoice">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/uservoice.svg" width="50">
+            <div class="mx-2">UserVoice</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/yahoo_gemini">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/verizon.svg" width="50">
+            <div class="mx-2">Verizon Media (Yahoo Gemini)</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/webhooks">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/webhooks.svg" width="50">
+            <div class="mx-2">Webhooks</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/workday">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/workday.svg" width="50">
+            <div class="mx-2">Workday</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/xero">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/xero.svg" width="50">
+            <div class="mx-2">Xero</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/youtube_analytics">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/youtube.svg" width="50">
+            <div class="mx-2">YouTube Analytics</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/zendesk_chat">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/zendesk.svg" width="50">
+            <div class="mx-2">Zendesk Chat</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/zendesk_sunshine">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/zendesk.svg" width="50">
+            <div class="mx-2">Zendesk Sunshine</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/zendesk">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/zendesk.svg" width="50">
+            <div class="mx-2">Zendesk Support</div>
+            </li></a><a class="text-decoration-none" href="/workspace/60c28373937509002b9211c5/new-connector/zuora">
+            <li class="d-inline-flex align-items-center list-group-item list-group-item-action mt-1 pointer border rounded mr-2 p-3" style="cursor:pointer; height:80px"><img src="/images/logos/zuora.svg" width="50">
+            <div class="mx-2">Zuora</div>
+            </li></a><a class="mt-3 float-end" href="https://airtable.com/shriEw3yBXDpP2A15?prefill_Email=jeff@chartkarma.com" target="_blank">Don't see what you need. Let us know!</a>
+        </ul>
+    </div>
+    <div class="container mt-5">
+      <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+          <div class="col-12 col-md">
+            <small class="d-block mb-3 text-muted">© 2021 ChartKarma</small>
+          </div>
+          <div class="col-6 col-md">
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted text-decoration-none" href="https://admin.chartkarma.com/login">Login</a></li>
+              <li><a class="text-muted text-decoration-none" href="https://admin.chartkarma.com/signup">Signup</a></li>
+            </ul>
+          </div>
+          <!-- <div class="col-6 col-md">
+            <h5>Resources</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Resource</a></li>
+              <li><a class="text-muted" href="#">Resource name</a></li>
+              <li><a class="text-muted" href="#">Another resource</a></li>
+              <li><a class="text-muted" href="#">Final resource</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>About</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Team</a></li>
+              <li><a class="text-muted" href="#">Locations</a></li>
+              <li><a class="text-muted" href="#">Privacy</a></li>
+              <li><a class="text-muted" href="#">Terms</a></li>
+            </ul>
+          </div> -->
+        </div>
+      </footer>
+    </div>
+  
+
+    <!-- /.container -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script>
+      $(window).scroll(function() {
+        if (this.scrollY > 150){
+          $('nav').addClass('border-bottom');
+          $(window).unbind("scroll");
+        }
+      });
+    </script>
+    <script>
+      !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"];analytics.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);analytics.push(t);return analytics}};for(var e=0;e<analytics.methods.length;e++){var key=analytics.methods[e];analytics[key]=analytics.factory(key)}analytics.load=function(key,e){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=e};analytics._writeKey="BmxaKFSTnh51wGAADYTf9HJiwdIQaxio";analytics.SNIPPET_VERSION="4.13.2";
+      // analytics.load("BmxaKFSTnh51wGAADYTf9HJiwdIQaxio");
+      // analytics.page();
+      }}();
+    </script>  
+  </body>
+  </html>

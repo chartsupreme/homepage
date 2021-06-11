@@ -1,0 +1,11 @@
+<svg id="graphics" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #008272;
+      }
+    </style>
+  </defs>
+  <title>connectors</title>
+  <polygon class="cls-1" points="49.88 43.66 53 51.43 57.92 53.7 47.88 59.51 47.88 34.41 40.73 31.91 40.73 63.6 47.88 67.59 65.73 57.33 65.73 49.24 49.88 43.66"/>
+</svg>
